@@ -8,6 +8,7 @@ spec:
     spec:
       containers:
         - name: welcome
+          image: dragz17/sltr-devops-boy:staging
           env:
             - name: ENV
               value: "staging"

@@ -8,6 +8,8 @@ spec:
     spec:
       containers:
         - name: welcome
+          image: dragz17/sltr-devops-boy
           env:
             - name: ENV
               value: "production"
+            
